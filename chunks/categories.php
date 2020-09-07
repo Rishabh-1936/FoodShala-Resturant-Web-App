@@ -1,7 +1,7 @@
 
 <?php
 
-require('backends/connection-pdo.php');
+require('./backends/connection-pdo.php');
 
 $sql = 'SELECT * FROM categories';
 

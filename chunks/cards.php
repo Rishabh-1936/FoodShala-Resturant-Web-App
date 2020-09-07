@@ -54,7 +54,7 @@
 		</div>
 		<div class="row center" style="margin-bottom: 50px;">
 			<div class="col s12">
-				<a href="food-categories.php" class="waves-effect waves-light btn" style="background: #ee6e73 !important;">More Foods &raquo;</a>
+				<a href="./food-categories.php" class="waves-effect waves-light btn" style="background: #ee6e73 !important;">More Foods &raquo;</a>
 			</div>
 		</div>
 	</section>

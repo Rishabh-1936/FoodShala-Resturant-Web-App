@@ -5,10 +5,10 @@
 				<a href="#" class="brand-logo">FoodShala</a>
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="/FoodShala/" class="hvr-grow">Home</a></li>
-					<li><a href="/FoodShala/about-foodshala.php" class="hvr-grow">About Us</a></li>
+					<li><a href="./" class="hvr-grow">Home</a></li>
+					<li><a href="./about-foodshala.php" class="hvr-grow">About Us</a></li>
 					<!-- <li><a href="food-categories.php" class="hvr-grow">Categories</a></li> -->
-					<li><a href="menu.php" class="hvr-grow">Menu</a></li>
+					<li><a href="./menu.php" class="hvr-grow">Menu</a></li>
 					<li><a href="#" class="hvr-grow" onclick="toggleModal('Contact Info', 'You can contact us directly by calling to this number +81-225-314-3456. Check the bottom Footer Section of the website for more info.');">Contact</a></li>
 
 					<?php
@@ -23,7 +23,7 @@
 								<li class="dropbtn" id="nav-dropbtn">Login</li>
 
 								<li class="dropdown-content nav-dropdown-content"><a href="#" class="hvr-grow modal-trigger" data-target="modal1">Customer</a></li>
-								<li class="dropdown-content nav-dropdown-content"><a href="/FoodShala/admin">Resturant</a></li>
+								<li class="dropdown-content nav-dropdown-content"><a href="./admin">Resturant</a></li>
 
 							</ul>
 						</li>
@@ -38,10 +38,10 @@
 	</div>
 
 	<ul class="sidenav" id="mobile-demo">
-		<li><a href="/FoodShala">Home</a></li>
-		<li><a href="/FoodShala/about-foodshala.php">About Us</a></li>
+		<li><a href="./">Home</a></li>
+		<li><a href="./about-foodshala.php">About Us</a></li>
 		<!-- <li><a href="food-categories.php">Categories</a></li> -->
-		<li><a href="menu.php">Menu</a></li>
+		<li><a href="./menu.php">Menu</a></li>
 		<li><a href="#" onclick="toggleModal('Contact Info', 'You can contact us directly by calling to this number +81-225-314-3456. Check the bottom Footer Section of the website for more info.');">Contact</a></li>
 
 		<?php
@@ -56,22 +56,14 @@
 							<ul class="dropdown">
 								<li class="dropbtn">Login</li>
   								
-								  	<li class="dropdown-content"><a href="#" class="modal-trigger" data-target="modal1">Customer</a></li>
-  									<li class="dropdown-content"><a href="/FoodShala/admin">Resturant</a></li>
+								<li class="dropdown-content"><a href="#" class="modal-trigger" data-target="modal1">Customer</a></li>
+  								<li class="dropdown-content"><a href="./admin">Resturant</a></li>
   								
 							</ul>
 						</li>
 		        		<li><a href="#" class="modal-trigger" data-target="modal2">Register</a></li>';
 		}
-		// 	<li>
-		// 	<div class="dropdown">
-		// 		<button class="dropbtn">Dropdown</button>
-		// 		  <div class="dropdown-content">
-		// 		  <a href="#" class="modal-trigger" data-target="modal1">Customer</a>
-		// 			  <a href="/FoodShala/admin">Resturant</a>
-		// 		  </div>
-		// 	</div>
-		// </li>
+
 		?>
 	</ul>
 </section>

@@ -1,7 +1,7 @@
 
 <?php
 
-require('backends/connection-pdo.php');
+require('./backends/connection-pdo.php');
 
 
 if (isset($_REQUEST['id'])) {
@@ -70,7 +70,7 @@ $arr_all = $query->fetchAll(PDO::FETCH_ASSOC);
 			          <p>This is a popular Food of India. Order Now to Grab a bite of it!</p>
 			        </div>
 			        <div class="card-content center">
-			          <a href="backends/order-food.php?id=<?php echo $arr_all[$i+$j-2]['id']; ?>" style="background: #ee6e73;" class="btn waves-effect waves-block waves-light" href="">Order Now!</a>
+			          <a href="./backends/order-food.php?id=<?php echo $arr_all[$i+$j-2]['id']; ?>" style="background: #ee6e73;" class="btn waves-effect waves-block waves-light" href="">Order Now!</a>
 			        </div>
 				    </div>
 				    <div class="card-reveal">
