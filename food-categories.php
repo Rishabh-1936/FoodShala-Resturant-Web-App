@@ -20,39 +20,31 @@ session_start();
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="./css/style.css">
 
 	
 </head>
 <body>
 
-	<?php require('chunks/login-modal.php'); ?>
+	<?php require('./chunks/login-modal.php'); ?>
 
 
-	<?php require('chunks/register-modal.php'); ?>
+	<?php require('./chunks/register-modal.php'); ?>
 
 
-	<?php require('chunks/info-modal.php'); ?>
+	<?php require('./chunks/info-modal.php'); ?>
 
 
-	<?php require('chunks/navbar.php'); ?>
+	<?php require('./chunks/navbar.php'); ?>
 
 
-	<?php require('chunks/banner-slider.php'); ?>
+	<?php require('./chunks/banner-slider.php'); ?>
 
 
+	<?php require('./chunks/categories.php'); ?>
 
 
-	<?php require('chunks/categories.php'); ?>
-
-
-
-
-
-
-
-
-	<?php require('chunks/footer.php'); ?>
+	<?php require('./chunks/footer.php'); ?>
 
 
 
@@ -64,7 +56,7 @@ session_start();
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <script src="js/loaders.js"></script>
-    <script src="js/ajax.js"></script>
+    <script src="./js/loaders.js"></script>
+    <script src="./js/ajax.js"></script>
 </body>
 </html>

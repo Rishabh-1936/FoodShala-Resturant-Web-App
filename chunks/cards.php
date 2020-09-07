@@ -3,7 +3,7 @@
 			<div class="col s12 m12 l4" style="padding: 50px 5px;">
 				<div class="card">
 				    <div class="card-image waves-effect waves-block waves-light">
-				      <img class="activator" src="images/banner1.jpg">
+				      <img class="activator" src="./images/banner1.jpg">
 				    </div>
 				    <div class="card-content">
 				      <span class="card-title activator grey-text text-darken-4">North Indian<i class="material-icons right">more_vert</i></span>
@@ -20,7 +20,7 @@
 			<div class="col s12 m12 l4" style="padding: 50px 5px;">
 				<div class="card">
 				    <div class="card-image waves-effect waves-block waves-light">
-				      <img class="activator" src="images/banner2.jpg">
+				      <img class="activator" src="./images/banner2.jpg">
 				    </div>
 				    <div class="card-content">
 				      <span class="card-title activator grey-text text-darken-4">Chinese<i class="material-icons right">more_vert</i></span>
@@ -37,7 +37,7 @@
 			<div class="col s12 m12 l4" style="padding: 50px 5px;">
 				<div class="card">
 				    <div class="card-image waves-effect waves-block waves-light">
-				      <img class="activator" src="images/banner4.jpg">
+				      <img class="activator" src="./images/banner4.jpg">
 				    </div>
 				    <div class="card-content">
 				      <span class="card-title activator grey-text text-darken-4">South Indian<i class="material-icons right">more_vert</i></span>

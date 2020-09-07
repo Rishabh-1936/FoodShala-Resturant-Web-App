@@ -62,7 +62,7 @@ $arr_all = $query->fetchAll(PDO::FETCH_ASSOC);
 			<div class="col s12 m4">
 				<div class="card">
 				    <div class="card-image waves-effect waves-block waves-light">
-				      <img class="activator" src="images/banner<?php echo $j; ?>.jpg">
+				      <img class="activator" src="./images/banner<?php echo $j; ?>.jpg">
 				    </div>
 				    <div class="card-content">
 				      <span class="card-title activator grey-text text-darken-4"><a class="black-text" href=""><?php echo $arr_all[$i+$j-2]['fname']; ?></a><i class="material-icons right">more_vert</i></span>
