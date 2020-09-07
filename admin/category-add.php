@@ -1,7 +1,7 @@
-<?php require('layout/header.php'); ?>
-<?php require('layout/left-sidebar-long.php'); ?>
-<?php require('layout/topnav.php'); ?>
-<?php require('layout/left-sidebar-short.php'); ?>
+<?php require('./layout/header.php'); ?>
+<?php require('./layout/left-sidebar-long.php'); ?>
+<?php require('./layout/topnav.php'); ?>
+<?php require('./layout/left-sidebar-short.php'); ?>
 
 
 <div class="section white-text" style="background: #B35458;">
@@ -58,7 +58,7 @@
             <div class="row">
                 <div class="col s12">
                     <div class="section right" style="padding: 15px 10px;">
-                        <a href="category-list.php" class="waves-effect waves-light btn">Dismiss</a>
+                        <a href="./category-list.php" class="waves-effect waves-light btn">Dismiss</a>
                     </div>
                     <div class="section right" style="padding: 15px 20px;">
                         <button type="submit" class="waves-effect waves-light btn">Add New</button>
@@ -73,5 +73,5 @@
 
 </div>
 
-<?php require('layout/about-modal.php'); ?>
-<?php require('layout/footer.php'); ?>
+<?php require('./layout/about-modal.php'); ?>
+<?php require('./layout/footer.php'); ?>

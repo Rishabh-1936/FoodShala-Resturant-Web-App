@@ -19,23 +19,6 @@
 					</div>
 
 				</div>
-				<div class="row user-type-row">
-						<p>User Type</p>
-					
-
-					<div class="col s12 user-type">
-						<label>
-							<input name="group1" type="radio" class="group3" value="resturant" checked />
-							<span>Resturant</span>
-						</label>
-					</div>
-					<div class="col s12 user-type">
-						<label>
-							<input name="group1" type="radio" class="group3" value="customer" />
-							<span>Customer</span>
-						</label>
-					</div>
-				</div>
 
 				<a href="javascript:void(0)" class="modal-close waves-effect waves-light btn" id="login_btn" style="background: #ee6e73 !important;">Login</a>
 

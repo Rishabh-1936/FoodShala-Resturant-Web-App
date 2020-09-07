@@ -1,7 +1,7 @@
-<?php require('layout/header.php'); ?>
-<?php require('layout/left-sidebar-long.php'); ?>
-<?php require('layout/topnav.php'); ?>
-<?php require('layout/left-sidebar-short.php'); ?>
+<?php require('./layout/header.php'); ?>
+<?php require('./layout/left-sidebar-long.php'); ?>
+<?php require('./layout/topnav.php'); ?>
+<?php require('./layout/left-sidebar-short.php'); ?>
 
 
 <?php
@@ -39,7 +39,7 @@ $arr_all = $query->fetchAll(PDO::FETCH_ASSOC);
     ?>
 
 	<div class="section right" style="padding: 15px 25px;">
-		<a href="category-add.php" class="waves-effect waves-light btn">Add New</a>
+		<a href="./category-add.php" class="waves-effect waves-light btn">Add New</a>
 	</div>
 	
 	<div class="section center" style="padding: 20px;">
@@ -73,5 +73,5 @@ $arr_all = $query->fetchAll(PDO::FETCH_ASSOC);
 	</div>
 </div>
 
-<?php require('layout/about-modal.php'); ?>
-<?php require('layout/footer.php'); ?>
+<?php require('./layout/about-modal.php'); ?>
+<?php require('./layout/footer.php'); ?>

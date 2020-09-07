@@ -42,7 +42,6 @@ if (!preg_match($regex_email, $_POST['email']) || !preg_match($regex_password, $
 
 	$password = $_POST['password'];
 
-	$userType=$_POST['userType'];
 
 	$sql = "SELECT * FROM users WHERE email=?";
 
@@ -66,7 +65,7 @@ if (!preg_match($regex_email, $_POST['email']) || !preg_match($regex_password, $
 
 			$_SESSION['user'] = explode(" ", $tmp_name)[0];
 			$_SESSION['user_id'] = $tmp_id;
-			$_SESSION['userType'] = $userType;
+			
 				
 			$arr = array ('code'=>"1",'msg'=>"You are Logged In!");
 

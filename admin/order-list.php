@@ -1,7 +1,7 @@
-<?php require('layout/header.php'); ?>
-<?php require('layout/left-sidebar-long.php'); ?>
-<?php require('layout/topnav.php'); ?>
-<?php require('layout/left-sidebar-short.php'); ?>
+<?php require('./layout/header.php'); ?>
+<?php require('./layout/left-sidebar-long.php'); ?>
+<?php require('./layout/topnav.php'); ?>
+<?php require('./layout/left-sidebar-short.php'); ?>
 
 
 <?php
@@ -69,5 +69,5 @@ $arr_all = $query->fetchAll(PDO::FETCH_ASSOC);
 	</div>
 </div>
 
-<?php require('layout/about-modal.php'); ?>
-<?php require('layout/footer.php'); ?>
+<?php require('./layout/about-modal.php'); ?>
+<?php require('./layout/footer.php'); ?>

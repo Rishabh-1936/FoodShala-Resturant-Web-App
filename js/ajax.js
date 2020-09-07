@@ -53,7 +53,7 @@ $(function () {
 		} else {
 
 			$.ajax({
-				url: '/FoodShala/backends/register.php',
+				url: './backends/register.php',
 				type: 'POST',
 				data: {
 					'name': name,
@@ -101,7 +101,6 @@ $(function () {
 	$('#login_btn').click(function () {
 		var email = $('#email_login').val()
 		var password = $('#password_login').val()
-		var login_user_type = $(".group3:checked").val();
 
 		var mail_regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z]{2,4})+$/;
 
@@ -115,13 +114,12 @@ $(function () {
 		} else {
 
 			$.ajax({
-				url: '/FoodShala/backends/login.php',
+				url: './backends/login.php',
 				type: 'POST',
 				data: {
 					'name': name,
 					'email': email,
-					'password': password,
-					'userType':login_user_type
+					'password': password
 				},
 				dataType: 'json',
 				beforeSend: function () {
