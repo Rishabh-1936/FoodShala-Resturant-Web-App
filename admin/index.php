@@ -36,7 +36,7 @@ if(isset($_SESSION['msg']))
                             <div class="card horizontal hoverable">
 
                                 <div class="card-stacked">
-                                    <form class="card-content" action="/login-admin.php" method="post">
+                                    <form class="card-content" action="./login-admin.php" method="post">
                                         <h4 class="header">Resturant Login</h4>
 
                                         <?php
